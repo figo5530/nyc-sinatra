@@ -1,0 +1,10 @@
+<label>Figure Name: <%= @figure.name %></label>
+<br>
+<% @figure.titles.each do |t| %>
+<label>Title name: <%= t.name %></label>
+<br>
+<% end %>
+<% @figure.landmarks.each do |l| %>
+<label>Landmark Name: <%= l.name %></label>
+<br>
+<% end %>
